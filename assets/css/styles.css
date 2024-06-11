@@ -39,6 +39,7 @@ header a {
 h1 {
     font-family: 'Outfit', sans-serif;
     letter-spacing: 2px;
+    text-transform: uppercase;
     color: #ffffff;
 }
 
@@ -56,6 +57,32 @@ h1 {
     border-bottom: 1px solid #3a3a3a;
 }
 
+/* Navbar styles with dropdown toggle */
+nav {
+    position: absolute;
+    background-color: #2779a7;
+    width: 100%;
+    left: 0;
+    padding: 0 1rem;
+    box-shadow: 0 2px 2px #3a3a3a;
+    display: none;
+    top: 100%;
+}
+
+/* Nav toggle */
+#nav-toggle:checked~nav {
+    display: block;
+}
+
+#nav-toggle {
+    display: none;
+}
+
+.nav-toggle-label {
+    font-size: 2rem;
+}
+
+/* Main content */
 main {
     background-color: red;
     flex: 1 0 auto;
