@@ -20,7 +20,7 @@ body {
 /* Header */
 
 header {
-    background-color: #ffffff;
+    background-color: #2779a7;
     padding: 0 1rem;
     position: fixed;
     z-index: 99;
@@ -37,8 +37,9 @@ header a {
 }
 
 h1 {
+    font-family: 'Outfit', sans-serif;
     letter-spacing: 2px;
-    color: #252525;
+    color: #ffffff;
 }
 
 #menu {
@@ -58,7 +59,7 @@ h1 {
 main {
     background-color: red;
     flex: 1 0 auto;
-    padding-top: 105px;
+    padding-top: 176px;
 }
 
 footer {
