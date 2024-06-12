@@ -54,7 +54,7 @@ h1 {
 }
 
 .active {
-    border-bottom: 1px solid #ffffff;
+    color: #ffffff;
 }
 
 /* Navbar styles with dropdown toggle */
@@ -126,6 +126,6 @@ footer {
 /* Large devices (laptops and desktops, 992px and more)*/
 @media screen and (min-width: 992px) {
     #menu a:hover {
-        border-bottom: 1px solid #ffffff;
+        color: #ffffff;
     }
 }
