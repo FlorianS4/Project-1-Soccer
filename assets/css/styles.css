@@ -17,6 +17,9 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
+h1{
+    max-width: 560px;
+}
 
 h1, h2, h3 {
     font-family: 'Outfit', sans-serif;
@@ -64,7 +67,7 @@ nav {
     background-color: #2779a7;
     width: 100%;
     left: 0;
-    padding: 0 1rem;
+    padding: 2px 1rem 0 1rem;
     box-shadow: 0 2px 2px #3a3a3a;
     display: none;
     top: 100%;
@@ -148,12 +151,6 @@ footer {
 
     .nav-toggle-label {
         display: none;
-    }
-
-    #title {
-        font-size: 200%;
-        line-height: 75px;
-        margin: 0 0.5rem;
     }
 
     #cover-text {
