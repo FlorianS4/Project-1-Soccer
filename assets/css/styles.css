@@ -49,7 +49,7 @@ h1 {
     list-style-type: none;
 }
 
-#menu > li {
+#menu>li {
     margin-bottom: 1em;
 }
 
@@ -84,9 +84,45 @@ nav {
 
 /* Main content */
 main {
-    background-color: red;
-    flex: 1 0 auto;
-    padding-top: 176px;
+    flex: 3 0 auto;
+    padding-top: 80px;
+}
+
+/* Background Picture Home for screen size 1024px and more */
+#background-picture-home-1024px-and-more {
+    height: 1200px;
+    width: 100%;
+    background: url('../images/Background\ Picture\ Football\ field.jpg') no-repeat center center;
+    background-size: 100% 100%;
+}
+
+/* Background Picture Home for screen size 1024px and less */
+#background-picture-home-up-to-1023px {
+    height: 600px;
+    width: 100%;
+    background: url('../images/background\ picutre\ Football\ field\ for\ screensize\ 1024and\ less.jpg') no-repeat center center;
+    background-size: 100% 100%;
+}
+
+
+/* Media query for background picture screen size 1024px and less */
+@media screen and (max-width: 1023px) {
+    #background-picture-home-1024px-and-more {
+        display: none !important;
+    }
+    #background-picture-home-up-to-1023px {
+        display: block !important;
+    }
+}
+
+/* Media query for background picture screen size 1024px and more */
+@media screen and (min-width: 1024px) {
+        #background-picture-home-1024px-and-more {
+        display: block !important;
+    }
+    #background-picture-home-up-to-1023px {
+        display: none !important;
+    }
 }
 
 /* Footer */
@@ -101,7 +137,7 @@ main {
 
 #social-media i {
     color: #3a3a3a;
-    padding: 7%;
+    padding: 10%;
     font-size: 200%;
 }
 
@@ -111,6 +147,7 @@ footer {
 
 /* Media query: tablets and larger (768px and up) */
 @media screen and (min-width: 768px) {
+
     /* Header */
     nav {
         display: block;
@@ -124,7 +161,7 @@ footer {
         display: flex;
     }
 
-    #menu > li {
+    #menu>li {
         padding-left: 1rem;
     }
 
@@ -132,7 +169,7 @@ footer {
         display: none;
     }
 
-    #logo {
+    #title {
         font-size: 200%;
         line-height: 75px;
         margin: 0 0.5rem;
@@ -143,5 +180,10 @@ footer {
 @media screen and (min-width: 992px) {
     #menu a:hover {
         color: #ffffff;
+    }
+
+    main {
+        flex: 3 0 auto;
+        padding-top: 75px;
     }
 }
