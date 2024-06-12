@@ -17,6 +17,14 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
+
+h1, h2, h3 {
+    font-family: 'Outfit', sans-serif;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #ffffff;
+}
+
 /* Header */
 
 header {
@@ -34,13 +42,6 @@ header {
 header a {
     text-decoration: none;
     color: inherit;
-}
-
-h1 {
-    font-family: 'Outfit', sans-serif;
-    letter-spacing: 2px;
-    text-transform: uppercase;
-    color: #ffffff;
 }
 
 #menu {
@@ -94,6 +95,7 @@ main {
     width: 100%;
     background: url('../images/Background\ Picture\ Football\ field.jpg') no-repeat center center;
     background-size: 100% 100%;
+    position: relative;
 }
 
 /* Background Picture Home for screen size 1024px and less */
@@ -102,8 +104,8 @@ main {
     width: 100%;
     background: url('../images/background\ picutre\ Football\ field\ for\ screensize\ 1024and\ less.jpg') no-repeat center center;
     background-size: 100% 100%;
+    position: relative;
 }
-
 
 /* Media query for background picture screen size 1024px and less */
 @media screen and (max-width: 1023px) {
@@ -123,6 +125,16 @@ main {
     #background-picture-home-up-to-1023px {
         display: none !important;
     }
+}
+
+#cover-text {
+    background-color: rgba(209, 72, 54, .6);
+    font-size: 100%;
+    position: absolute;
+    bottom: 50px;
+    width: 60%;
+    min-height: 300px;
+    padding: 50px 0 0 50px;
 }
 
 /* Footer */
