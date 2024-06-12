@@ -89,52 +89,21 @@ main {
     padding-top: 80px;
 }
 
-/* Background Picture Home for screen size 1024px and more */
-#background-picture-home-1024px-and-more {
-    height: 1200px;
+#background-hero-image {
+    background: url(../images/hero-image.jpg) no-repeat left center /cover;
     width: 100%;
-    background: url('../images/Background\ Picture\ Football\ field.jpg') no-repeat center center;
-    background-size: 100% 100%;
+    height: 1000px;
     position: relative;
-}
-
-/* Background Picture Home for screen size 1024px and less */
-#background-picture-home-up-to-1023px {
-    height: 600px;
-    width: 100%;
-    background: url('../images/background\ picutre\ Football\ field\ for\ screensize\ 1024and\ less.jpg') no-repeat center center;
-    background-size: 100% 100%;
-    position: relative;
-}
-
-/* Media query for background picture screen size 1024px and less */
-@media screen and (max-width: 1023px) {
-    #background-picture-home-1024px-and-more {
-        display: none !important;
-    }
-    #background-picture-home-up-to-1023px {
-        display: block !important;
-    }
-}
-
-/* Media query for background picture screen size 1024px and more */
-@media screen and (min-width: 1024px) {
-        #background-picture-home-1024px-and-more {
-        display: block !important;
-    }
-    #background-picture-home-up-to-1023px {
-        display: none !important;
-    }
 }
 
 #cover-text {
     background-color: rgba(209, 72, 54, .6);
     font-size: 100%;
     position: absolute;
-    bottom: 50px;
-    width: 60%;
-    min-height: 300px;
-    padding: 50px 0 0 50px;
+    top: 50px;
+    width: 80%;
+    min-height: 220px;
+    padding: 30px 0 0 30px;
 }
 
 /* Footer */
@@ -186,6 +155,13 @@ footer {
         line-height: 75px;
         margin: 0 0.5rem;
     }
+
+    #cover-text {
+        bottom: 50px;
+        width: 60%;
+        max-height: 250px;
+        top: unset;
+    }
 }
 
 /* Large devices (laptops and desktops, 992px and more)*/
@@ -198,4 +174,6 @@ footer {
         flex: 3 0 auto;
         padding-top: 75px;
     }
+
+   
 }
