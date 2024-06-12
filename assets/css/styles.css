@@ -89,8 +89,24 @@ main {
     padding-top: 176px;
 }
 
+/* Footer */
+
+#social-media {
+    text-align: center;
+    padding: 30px 0;
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+}
+
+#social-media i {
+    color: #3a3a3a;
+    padding: 7%;
+    font-size: 200%;
+}
+
 footer {
-    background-color: green;
+    background-color: #ECD06F;
 }
 
 /* Media query: tablets and larger (768px and up) */
