@@ -110,7 +110,7 @@ main {
 }
 
 /* First Content section */
-#h2-for-home {
+#contentpart-home h2 {
     background-color: rgba(236, 208, 111, .6);
     font-size: 100%;
     position: absolute;
@@ -118,7 +118,7 @@ main {
     width: 70%;
 }
 
-#p-for-home {
+#contentpart-home p {
     line-height: 20px;
     margin-bottom: 20px;
     font-size: larger;
@@ -130,29 +130,50 @@ main {
 }
 
 /* Second Content Section */
-#h2-about-us {
+#contentpart-about-us h2 {
     background-color: rgba(236, 208, 111, .6);
     font-size: 100%;
     position: absolute;
 }
 
-#h3-about-us {
+#contentpart-about-us p {
+    line-height: 20px;
+    margin-bottom: 20px;
+    font-size: larger;
+    text-align: center;
+}
+
+#contentpart-about-us h3{
     background-color: rgba(236, 208, 111, .6);
     font-size: 100%;
     position: absolute;
 }
 
 /* Third Content Section */
-#h2-training {
+#contentpart-training h2 {
     background-color: rgba(236, 208, 111, .6);
     font-size: 100%;
     position: absolute;
 }
+
+#contentpart-training p {
+    line-height: 20px;
+    margin-bottom: 20px;
+    font-size: larger;
+    text-align: center;
+}
 /* Forth Content Section */
-#h2-get-connected {
+#contentpart-get-connected h2 {
     background-color: rgba(236, 208, 111, .6);
     font-size: 100%;
     position: absolute;
+}
+
+#contentpart-get-connected p {
+    line-height: 20px;
+    margin-bottom: 20px;
+    font-size: larger;
+    text-align: center;
 }
 /* Footer */
 
