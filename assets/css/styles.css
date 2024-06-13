@@ -95,7 +95,7 @@ main {
 #background-hero-image {
     background: url(../images/hero-image.jpg) no-repeat left center /cover;
     width: 100%;
-    height: 1000px;
+    height: 800px;
     position: relative;
 }
 
@@ -103,10 +103,37 @@ main {
     background-color: rgba(209, 72, 54, .6);
     font-size: 100%;
     position: absolute;
-    top: 50px;
+    top: 120px;
     width: 80%;
-    min-height: 220px;
+    min-height: 200px;
     padding: 30px 0 0 30px;
+}
+
+/* First Conent section */
+#h2-for-home {
+    background-color: rgba(236, 208, 111, .6);
+    font-size: 100%;
+    position: absolute;
+    top: 700px;
+    width: 70%;
+}
+
+#p-for-home {
+    line-height: 20px;
+    margin-bottom: 20px;
+    font-size: larger;
+    text-align: center;
+}
+
+#hr-for-home {
+    border-top: 1px solid #3a3a3a;
+}
+
+/* Second Content Section */
+#h2-about-us {
+    background-color: rgba(236, 208, 111, .6);
+    font-size: 100%;
+    position: absolute;
 }
 
 /* Footer */
