@@ -28,6 +28,13 @@ h1, h2, h3 {
     color: #ffffff;
 }
 
+p {
+    line-height: 1.6;
+    margin-bottom: 20px;
+    font-size: 110%;
+    text-align: justify;
+}
+
 /* Targeting the p and h2 elements in my sections */
 p, h2 {
     padding: 1rem;
@@ -111,11 +118,12 @@ main {
     top: 120px;
     width: 80%;
     min-height: 200px;
+    right: 0;
     
 }
 
 #cover-text h2, h3 {
-    padding: 30px 0 0 30px;
+    padding: 30px 10px 0 30px;
 }
 
 /* First Content section */
@@ -124,14 +132,7 @@ main {
     font-size: 100%;
     position: absolute;
     top: 700px;
-    width: 70%;
-}
-
-#contentpart-home p {
-    line-height: 20px;
-    margin-bottom: 20px;
-    font-size: larger;
-    text-align: center;
+    width: 60%;
 }
 
 #break-point-for-content {
@@ -139,12 +140,18 @@ main {
 }
 
 /* image gallery */
+#gallery {
+    display: flex;
+    width: 100%;
+}
+
 #images {
     width: 100%;
     line-height: 1em;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    justify-content: center;
 }
 
 #images img {
@@ -157,13 +164,6 @@ main {
     background-color: rgba(236, 208, 111, .6);
     font-size: 100%;
     position: absolute;
-}
-
-#contentpart-about-us p {
-    line-height: 20px;
-    margin-bottom: 20px;
-    font-size: larger;
-    text-align: center;
 }
 
 #contentpart-about-us h3{
@@ -179,12 +179,6 @@ main {
     position: absolute;
 }
 
-#contentpart-training p {
-    line-height: 20px;
-    margin-bottom: 20px;
-    font-size: larger;
-    text-align: center;
-}
 /* Forth Content Section */
 #contentpart-get-connected h2 {
     background-color: rgba(236, 208, 111, .6);
@@ -192,14 +186,7 @@ main {
     position: absolute;
 }
 
-#contentpart-get-connected p {
-    line-height: 20px;
-    margin-bottom: 20px;
-    font-size: larger;
-    text-align: center;
-}
 /* Footer */
-
 #social-media {
     text-align: center;
     padding: 30px 0;
@@ -243,10 +230,9 @@ footer {
     }
 
     #cover-text {
-        bottom: 50px;
-        width: 60%;
-        max-height: 250px;
-        top: unset;
+        width: 300px;
+        right: 50px;
+
     }
 }
 
@@ -261,5 +247,17 @@ footer {
         padding-top: 75px;
     }
 
-   
+    #cover-text {
+        width: 350px;
+        top: 150px;
+        right: 150px;
+    }
+
+    /* adjust h2 for content part home */
+
+    #contentpart-home h2 {
+        padding-left: 5rem;
+        left: 20px;
+        width: 50%;
+    }
 }
