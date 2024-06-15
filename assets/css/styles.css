@@ -69,10 +69,6 @@ header a {
     margin-bottom: 1em;
 }
 
-.active {
-    color: #ffffff;
-}
-
 /* Navbar styles with dropdown toggle */
 nav {
     position: absolute;
@@ -119,11 +115,10 @@ main {
     width: 80%;
     min-height: 200px;
     right: 0;
-    
 }
 
 #cover-text h2, h3 {
-    padding: 30px 10px 0 30px;
+    padding: 20px 10px 10px 30px;
 }
 
 /* First Content section */
@@ -143,6 +138,7 @@ main {
 #gallery {
     display: flex;
     width: 100%;
+    padding: 1rem 0;
 }
 
 #images {
@@ -157,34 +153,25 @@ main {
 #images img {
     width: 160px;
     line-height: 0;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
 }
 
-/* Second Content Section */
-#contentpart-about-us h2 {
+/* targeting h2 in main (exept the first h2) */
+.section-heading {
     background-color: rgba(236, 208, 111, .6);
     font-size: 100%;
-    position: absolute;
+    padding: 1rem;
+    font-size: 110%;
+    text-align: center;
 }
 
 #contentpart-about-us h3{
     background-color: rgba(236, 208, 111, .6);
     font-size: 100%;
-    position: absolute;
+    position: relative;
+    width: 80%;
 }
 
-/* Third Content Section */
-#contentpart-training h2 {
-    background-color: rgba(236, 208, 111, .6);
-    font-size: 100%;
-    position: absolute;
-}
-
-/* Forth Content Section */
-#contentpart-get-connected h2 {
-    background-color: rgba(236, 208, 111, .6);
-    font-size: 100%;
-    position: absolute;
-}
 
 /* Footer */
 #social-media {
@@ -233,6 +220,12 @@ footer {
         width: 300px;
         right: 50px;
 
+    }
+
+    /* targeting p elements */
+    p {
+        width: 90%;
+        margin: auto;
     }
 }
 
