@@ -17,11 +17,13 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
-h1{
+h1 {
     max-width: 560px;
 }
 
-h1, h2, h3 {
+h1,
+h2,
+h3 {
     font-family: 'Outfit', sans-serif;
     letter-spacing: 2px;
     text-transform: uppercase;
@@ -35,7 +37,8 @@ p {
 }
 
 /* Targeting the p and h2 elements in my sections */
-p, h2 {
+p,
+h2 {
     padding: 1rem;
 }
 
@@ -116,7 +119,8 @@ main {
     right: 0;
 }
 
-#cover-text h2, h3 {
+#cover-text h2,
+h3 {
     padding: 20px 10px 10px 30px;
 }
 
@@ -164,63 +168,102 @@ main {
     text-align: center;
 }
 
-/* Timeline */
-/* Timeline code from https://www.educative.io/answers/how-to-create-a-timeline-in-html */
+/* Timeline code from https://www.w3schools.com/howto/howto_css_timeline.asp */
+/* The actual timeline (the vertical ruler) */
 .timeline {
     position: relative;
-    max-width: 800px;
+    max-width: 1200px;
     margin: 0 auto;
-    padding: 40px 20px;
+    background-color: #2779a7;
 }
 
+/* The actual timeline (the vertical ruler) */
 .timeline::after {
     content: '';
     position: absolute;
-    width: 2px;
-    background-color: #000;
+    width: 6px;
+    background-color: white;
     top: 0;
     bottom: 0;
     left: 50%;
-    margin-left: -1px;
+    margin-left: -3px;
 }
 
-.timeline-item {
+/* Container around content */
+.container {
+    padding: 10px 40px;
     position: relative;
-    margin-bottom: 50px;
+    background-color: inherit;
+    width: 50%;
 }
 
-.timeline-item::after {
+/* The circles on the timeline */
+.container::after {
     content: '';
     position: absolute;
-    width: 20px;
-    height: 20px;
-    background-color: #000;
+    width: 25px;
+    height: 25px;
+    right: -17px;
+    background-color: white;
+    border: 4px solid #FF9F55;
+    top: 15px;
     border-radius: 50%;
-    top: 0;
+    z-index: 1;
+}
+
+/* Place the container to the left */
+.left {
+    left: 0;
+}
+
+/* Place the container to the right */
+.right {
     left: 50%;
-    margin-left: -10px;
 }
 
-.timeline-item.left .timeline-content {
-    left: 70%;
+/* Add arrows to the left container (pointing right) */
+.left::before {
+    content: " ";
+    height: 0;
+    position: absolute;
+    top: 22px;
+    width: 0;
+    z-index: 1;
+    right: 30px;
+    border: medium solid white;
+    border-width: 10px 0 10px 10px;
+    border-color: transparent transparent transparent white;
 }
 
-.timeline-item.right .timeline-content {
-    left: 20%;
-}
-
-.timeline-content {
-    position: relative;
+/* Add arrows to the right container (pointing left) */
+.right::before {
+    content: " ";
+    height: 0;
+    position: absolute;
+    top: 22px;
+    width: 0;
+    z-index: 1;
     left: 30px;
+    border: medium solid white;
+    border-width: 10px 10px 10px 0;
+    border-color: transparent white transparent transparent;
 }
 
-.timeline-date {
-    font-weight: bold;
-    margin-bottom: 10px;
+/* Fix the circle for containers on the right side */
+.right::after {
+    left: -16px;
 }
 
-.timeline-description {
-    margin-bottom: 10px;
+/* The actual content */
+.content {
+    padding: 20px 30px;
+    background-color: white;
+    position: relative;
+    border-radius: 6px;
+}
+
+.content h2 {
+    color: #3a3a3a;
 }
 
 /* Second Content Section*/
@@ -242,7 +285,7 @@ main {
 
 .participation-group {
     flex-basis: 300px;
-    border:solid 1px #3a3a3a;
+    border: solid 1px #3a3a3a;
     border-radius: 5px;
     text-align: center;
     margin: auto;
@@ -270,6 +313,42 @@ main {
 
 footer {
     background-color: #ECD06F;
+}
+
+/* Timeline code from https://www.w3schools.com/howto/howto_css_timeline.asp */
+/* Media queries - Responsive timeline on screens less than 600px wide */
+@media screen and (max-width: 600px) {
+
+    /* Place the timelime to the left */
+    .timeline::after {
+        left: 31px;
+    }
+
+    /* Full-width containers */
+    .container {
+        width: 100%;
+        padding-left: 70px;
+        padding-right: 25px;
+    }
+
+    /* Make sure that all arrows are pointing leftwards */
+    .container::before {
+        left: 60px;
+        border: medium solid white;
+        border-width: 10px 10px 10px 0;
+        border-color: transparent white transparent transparent;
+    }
+
+    /* Make sure all circles are at the same spot */
+    .left::after,
+    .right::after {
+        left: 15px;
+    }
+
+    /* Make all right containers behave like the left ones */
+    .right {
+        left: 0%;
+    }
 }
 
 /* Media query: tablets and larger (768px and up) */
@@ -334,7 +413,7 @@ footer {
     }
 
     /* adjust h2 for content part home */
-        #contentpart-home h2 {
+    #contentpart-home h2 {
         padding-left: 5rem;
         left: 20px;
         width: 50%;
