@@ -30,6 +30,12 @@ h3 {
     color: #ffffff;
 }
 
+h4 {
+    font-family: 'Outfit', sans-serif;
+    letter-spacing: 1px;
+    color: #3a3a3a;
+}
+
 p {
     line-height: 1.6;
     font-size: 110%;
@@ -296,6 +302,30 @@ h3 {
     align-items: center;
 }
 
+/* Members section */
+.portraits {
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+}
+
+.members {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-basis: 250px;
+    flex-grow: 1;
+    padding: 1rem;
+}
+
+.members img {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px;
+}
+
 /* Footer */
 #social-media {
     text-align: center;
@@ -429,5 +459,30 @@ footer {
     /* make participation section responsive */
     .participation-group {
         flex-basis: 400px;
+    }
+
+    /* add hover effect for members-name */
+    .members {
+        position: relative;
+    }
+
+    .members-name {
+        display: none;
+    }
+
+    .members:hover .members-name {
+        width: 250px;
+        height: 250px;
+        border-radius: 50%;
+        background-color: rgba(209, 72, 54, .6);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: absolute;
+        top: 0;
+        margin-top: 1rem;
+        color: #ffffff;
+        text-transform: uppercase;
+        text-align: center;
     }
 }
