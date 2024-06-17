@@ -352,6 +352,27 @@ th p, td p {
     text-align: center;
 }
 
+/* adding color for table content */
+.u9-and-u13 {
+    background-color: rgba(54, 209, 67, 0.288);
+}
+
+.u15-and-u17 {
+    background-color: rgba(209, 72, 54, 0.288);
+}
+
+.u19-and-reserve {
+    background-color: rgba(209, 54, 201, 0.288);
+}
+
+.woman {
+    background-color: rgba(57, 54, 209, 0.288);
+}
+
+.men {
+    background-color: rgba(236, 209, 111, 0.288);
+}
+
 /* Footer */
 #social-media {
     text-align: center;
