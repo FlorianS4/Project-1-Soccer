@@ -338,12 +338,11 @@ h3 {
     padding: 1rem;
     align-items: center;
     margin: auto;
-    justify-content: center;
+    overflow-x: auto;
 }
 
 th, td {
     border: solid 1px #000000;
-    width: 200px;
     box-shadow: rgba(0, 0, 0, 0.35) 0 5px 18px;
     padding: 5px;
 }
@@ -531,5 +530,15 @@ footer {
         color: #ffffff;
         text-transform: uppercase;
         text-align: center;
+    }
+
+    /* schedule table */
+
+    .schedule-table {
+        justify-content: center;
+    }
+
+    th, td {
+        width: 200px;
     }
 }
