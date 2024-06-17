@@ -326,6 +326,32 @@ h3 {
     box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px;
 }
 
+/* Schedule Table Section */
+#contentpart-training {
+    margin: auto;
+    text-align: center;    
+}
+
+.schedule-table {
+    display: flex;
+    border-collapse: collapse;
+    padding: 1rem;
+    align-items: center;
+    margin: auto;
+    justify-content: center;
+}
+
+th, td {
+    border: solid 1px #000000;
+    width: 200px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0 5px 18px;
+    padding: 5px;
+}
+
+th p, td p {
+    text-align: center;
+}
+
 /* Footer */
 #social-media {
     text-align: center;
