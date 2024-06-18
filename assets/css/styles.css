@@ -372,6 +372,18 @@ th p, td p {
     background-color: rgba(236, 209, 111, 0.288);
 }
 
+/* Styling for map element */
+.google-map {
+    position: relative;
+    margin: auto;
+    text-align: center;
+}
+
+.google-map iframe {
+    width: 90%;
+    margin: 0 auto;
+    display: block;
+}
 /* Footer */
 #social-media {
     text-align: center;
