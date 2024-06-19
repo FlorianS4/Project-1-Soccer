@@ -384,6 +384,12 @@ th p, td p {
     margin: 0 auto;
     display: block;
 }
+
+/* Signup section */
+.signup {
+    text-align: center;
+}
+
 /* Footer */
 #social-media {
     text-align: center;
