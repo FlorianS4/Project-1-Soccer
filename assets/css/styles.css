@@ -329,7 +329,7 @@ h3 {
 /* Schedule Table Section */
 #contentpart-training {
     margin: auto;
-    text-align: center;    
+    text-align: center;
 }
 
 .schedule-table {
@@ -341,13 +341,15 @@ h3 {
     overflow-x: auto;
 }
 
-th, td {
+th,
+td {
     border: solid 1px #000000;
     box-shadow: rgba(0, 0, 0, 0.35) 0 5px 18px;
     padding: 5px;
 }
 
-th p, td p {
+th p,
+td p {
     text-align: center;
 }
 
@@ -405,6 +407,8 @@ th p, td p {
     color: #ffffff;
     background-color: rgba(60, 60, 60, 0.6);
     padding: 15px;
+    border-radius: 8px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px;
 }
 
 .signup h4 {
@@ -441,10 +445,6 @@ th p, td p {
     border-radius: 10px;
 }
 
-.join-button {
-    height: 20px;
-    margin: 7px 0;
-}
 /* Footer */
 #social-media {
     text-align: center;
@@ -542,7 +542,18 @@ footer {
         margin: auto;
         text-align: center;
     }
+
+    /* Targeting Signup form */
+    .signup {
+        max-width: 1000px;
+    }
+
+    #signup-form {
+        max-width: 690px;
+    }
 }
+
+
 
 /* Large devices (laptops and desktops, 992px and more)*/
 @media screen and (min-width: 992px) {
@@ -611,7 +622,8 @@ footer {
         justify-content: center;
     }
 
-    th, td {
+    th,
+    td {
         width: 200px;
     }
 }
