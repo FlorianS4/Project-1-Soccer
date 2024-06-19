@@ -419,6 +419,20 @@ th p, td p {
     border-radius: 3px;
 }
 
+.signup h5 {
+    font-size: large;
+    padding: 15px;
+    color: #ffffff;
+}
+
+.radio-buttons {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    max-width: 420px;
+    align-self: center;
+}
+
 #join-button {
     width: 40%;
     align-self: center;
@@ -426,12 +440,6 @@ th p, td p {
     height: 40px;
     border-radius: 10px;
 }
-
-/*
-input[type=text], input[type=mail] {
-    box-sizing: border-box;
-}
-*/
 
 .join-button {
     height: 20px;
