@@ -387,9 +387,56 @@ th p, td p {
 
 /* Signup section */
 .signup {
-    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 15px auto;
+    width: 90%;
+    background: url(../images/Sign-up-picture.webp) no-repeat center center/cover;
+    padding: 1rem;
 }
 
+#signup-form {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 90%;
+    text-align: center;
+    color: #ffffff;
+    background-color: rgba(60, 60, 60, 0.6);
+    padding: 15px;
+}
+
+.signup h4 {
+    font-size: 200%;
+    padding: 30px;
+    color: #ffffff;
+}
+
+.text-input {
+    padding: 3px;
+    margin: 10px;
+    border-radius: 3px;
+}
+
+#join-button {
+    width: 40%;
+    align-self: center;
+    margin: 10px;
+    height: 40px;
+    border-radius: 10px;
+}
+
+/*
+input[type=text], input[type=mail] {
+    box-sizing: border-box;
+}
+*/
+
+.join-button {
+    height: 20px;
+    margin: 7px 0;
+}
 /* Footer */
 #social-media {
     text-align: center;
