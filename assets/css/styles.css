@@ -42,7 +42,7 @@ p {
     text-align: justify;
 }
 
-/* add  */
+/* add space between section heading and nav-bar for using navbar-tools */
 .href-targets {
     position: relative;
     top: -80px;
@@ -384,11 +384,16 @@ td p {
 /* Contact block */
 .adress-block {
     padding-bottom: 20px;
+    max-width: 450px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: auto;
+    text-align: center;
 }
 
 .adress-block h3 {
     color: #000000;
-    text-align: center;
 }
 
 .bold {
@@ -396,7 +401,6 @@ td p {
 }
 
 .adress-block p {
-    margin: 0;
     padding: 0;
     text-align: center;
 }
