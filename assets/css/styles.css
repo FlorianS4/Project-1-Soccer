@@ -9,11 +9,9 @@
 }
 
 /* CSS HEX colors by coolors.co
---bittersweet: #e66656ff;
---glaucous: #7777a7ff;
---lavender-blush: #f7edf0ff;
---orange-web: #f8a717ff;
---moss-green: #9a935eff;
+--red for cover-text:rgba(209, 72, 54, .6)
+--violett for header and footer: #5b5bc3ff;
+--orange for headings and subheadings: rgba(250, 166, 20, .6)
 */
 
 /* General Styles */
@@ -23,6 +21,7 @@ body {
     flex-direction: column;
     /* Generic project styles */
     font-family: 'Roboto', sans-serif;
+    background-color: #faebefff;
 }
 
 h1 {
@@ -64,7 +63,7 @@ h2 {
 /* Header */
 
 header {
-    background-color: #2779a7;
+    background-color: #5b5bc3ff;
     padding: 0 1rem;
     position: fixed;
     z-index: 99;
@@ -93,7 +92,7 @@ header a {
 /* Navbar styles with dropdown toggle */
 nav {
     position: absolute;
-    background-color: #2779a7;
+    background-color: #5b5bc3ff;
     width: 100%;
     left: 0;
     padding: 2px 1rem 0 1rem;
@@ -145,7 +144,7 @@ h3 {
 
 /* First Content section */
 #contentpart-home h2 {
-    background-color: rgba(236, 208, 111, .6);
+    background-color: rgba(250, 166, 20, .6);
     font-size: 100%;
     position: absolute;
     top: 700px;
@@ -182,7 +181,7 @@ h3 {
 
 /* targeting h2 in main (exept the first h2) */
 .section-heading {
-    background-color: rgba(236, 208, 111, .6);
+    background-color: rgba(250, 166, 20, .6);
     font-size: 100%;
     padding: 1rem;
     font-size: 110%;
@@ -195,7 +194,7 @@ h3 {
     position: relative;
     max-width: 1200px;
     margin: 0 auto;
-    background-color: #2779a7;
+    background-color: #5b5bc3ff;
 }
 
 /* The actual timeline (the vertical ruler) */
@@ -289,7 +288,7 @@ h3 {
 
 /* Second Content Section*/
 .subheadings {
-    background-color: rgba(236, 208, 111, .6);
+    background-color: rgba(250, 166, 20, .6);
     font-size: 100%;
     position: relative;
     width: 80%;
@@ -494,13 +493,13 @@ td p {
 }
 
 #social-media i {
-    color: #3a3a3a;
+    color: #faebefff;
     padding: 10%;
     font-size: 200%;
 }
 
 footer {
-    background-color: #ECD06F;
+    background-color: #5b5bc3ff;
 }
 
 /* Timeline code from https://www.w3schools.com/howto/howto_css_timeline.asp */
@@ -603,7 +602,7 @@ footer {
 /* Large devices (laptops and desktops, 992px and more)*/
 @media screen and (min-width: 992px) {
     #menu a:hover {
-        color: #ffffff;
+        color: #faebefff;
     }
 
     main {
