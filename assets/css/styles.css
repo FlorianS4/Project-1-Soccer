@@ -8,6 +8,14 @@
     box-sizing: border-box;
 }
 
+/* CSS HEX colors by coolors.co
+--bittersweet: #e66656ff;
+--glaucous: #7777a7ff;
+--lavender-blush: #f7edf0ff;
+--orange-web: #f8a717ff;
+--moss-green: #9a935eff;
+*/
+
 /* General Styles */
 body {
     min-height: 100vh;
