@@ -11,6 +11,7 @@
 /* CSS HEX colors by coolors.co
 --red for cover-text:rgba(209, 72, 54, .6)
 --violett for header and footer: #5b5bc3ff;
+--harvest-gold: #dc8d04ff; rgb /220,141,4)
 --orange for headings and subheadings: rgba(250, 166, 20, .6)
 */
 
@@ -181,7 +182,7 @@ h3 {
 
 /* targeting h2 in main (exept the first h2) */
 .section-heading {
-    background-color: rgba(250, 166, 20, .6);
+    background-color: #dc8d04ff;
     font-size: 100%;
     padding: 1rem;
     font-size: 110%;
@@ -288,7 +289,7 @@ h3 {
 
 /* Second Content Section*/
 .subheadings {
-    background-color: rgba(250, 166, 20, .6);
+    background-color: #dc8d04ff;
     font-size: 100%;
     position: relative;
     width: 80%;
