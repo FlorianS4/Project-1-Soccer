@@ -153,7 +153,10 @@ h3 {
 }
 
 .break-point-for-content {
-    border-top: 1px solid #3a3a3a;
+    border-top: 2px solid #3a3a3a;
+    border-right: 0;
+    border-left: 0;
+    border-bottom: 0;
 }
 
 /* image gallery */
@@ -590,6 +593,7 @@ footer {
         width: 50%;
         margin: auto;
         text-align: center;
+        border-radius: 5px;
     }
 
     /* Targeting Signup form */
