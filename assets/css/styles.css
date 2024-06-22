@@ -334,6 +334,10 @@ h3 {
     padding: 1rem;
 }
 
+.members-name {
+    padding-top: 10px;
+}
+
 .members img {
     width: 250px;
     height: 250px;
