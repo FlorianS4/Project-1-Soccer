@@ -11,8 +11,8 @@
 /* CSS HEX colors by coolors.co
 --red for cover-text:rgba(209, 72, 54, .6)
 --violett for header and footer: #5b5bc3ff;
---harvest-gold: #dc8d04ff; rgb /220,141,4)
---orange for headings and subheadings: rgba(250, 166, 20, .6)
+--harvest-gold used for headings (exept 1st heading) and subheadings: #dc8d04ff; rgb /220,141,4)
+--orange for 1st heading: rgba(250, 166, 20, .6)
 */
 
 /* General Styles */
