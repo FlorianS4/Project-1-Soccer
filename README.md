@@ -56,17 +56,48 @@ Football Club FullStackPlay is a
 
 
 ## Site Owner Goals
+- to provide the user with a site about an football club in Vienna.
+- to provide the user with informations about this club and how to join.
+- to provide the user with a short overview what to expect from other members, if they join.
+- to provide the user with a overview of possibable dates to join a training or watch a match.
+- to offer an address and a way to get in contact with the club.
+- to provide the user with the location information of the football club.
+- to offer a signup form for a newsletter for different age classes.
+
 
 ## User Experience
 ### User Stories
 #### First Time User
+- I want the main purpose of the website to be easy to understand and easy to navigate.
+- I want the site to be responsive to my device.
+- I want to know about the cost and what age range football activities are played.
+- I want to know how to get in contact with the club and where to find it.
+- I want to read about already enrolled members and what they think about the club.
 #### Returning User
+ - I want to find future training dates for my or my childs age range.
+ - I want to subscribe to the newsletter to find out about club activities where I could participate.
 #### Frequent User
+- I want to find out about results from different teams of the club.
+- I want to find out when i could watch a match live.
 
 ## Design
 ### Typography
+
+[Google Fonts](https://fonts.google.com/) was used for the following fonts:
+- ![Roboto font image](docs/readme-images/Roboto-Font-Pic.png)
+[Roboto](https://fonts.google.com/specimen/Roboto?query=Roboto) was chosen for the main body, because it was easy to read and has a good correlation to 
+- ![Outfit font Image](docs/readme-images/Outfit-Font-Pic.png)
+[Outfit](https://fonts.google.com/specimen/Outfit?query=Outfit) which i choose for my Headings.
+- Sans Serif was chosen as a backup font, in case the main font is not imported into the website, or there is a problem with the browser.
+
 ### Imagery
+
+All Images were taken from pexels.com and unsplash.com. I give credit to them in the [credits](#credits) section. All images are free stock photos. The images selected show kids, woman and men playing soccer.
+
 ### Color Scheme
+
+![FC FullStackPlay Color Palette](docs/readme-images/Color-Palette-Project-1.png)
+
 
 ## Wireframes
 
