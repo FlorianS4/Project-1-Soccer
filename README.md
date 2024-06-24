@@ -107,20 +107,56 @@ For the cover text of the hero image i used red, because i gave a good contrast 
 ## Features
 ### Favicon
 ### Navigation Bar
+picture of the navbar!!!!
+- The navbar includes the name of the club and the menu. The menu consists of Home, About Us, Training and Get Connected. These items are links to different parts inside the site.
+- The navbar is fixed at the top so it stays visible while scrolling the page and gives the user the ability to navigate freely to other sections, or back to the top.
+- When selecting the Club Name the user will also go back to the top of the page.
+
+Picture of hover function of the page !!!
+- When hovering over the different points in the section, they will change the color to indicate which one the user is hovering.
+
+Picture of navbar on mobile
+- On smaller screens the menu items are replaced by a burger-menu-icon with dropdown function.
 ### Hero Image
+Picture of the Hero Image!!!
+- The Hero Image consist of a background picture with a cover text on top.
+- The cover text moves depending on the screen size.
+- On the bottom of the Hero Image is the first Heading of the page.
+- Both text fields have a transparent look, so the Hero Image is still visable.
 ### Contentpart Home
+- The first content part is just a little text about the club, a little intro.
 #### Image Gallery
-### Contentpart About Us
+Picture of the image gallery!!!
+- consist of 6 pictures that shows players of the club. From children to Woman and Men, so it represents the different age ranges that are represent in the club.
+
+Picture of the image gallery in different screen sizes!!
+- depeding on the screen size, the image gallery response. On small screens in has 3 rows to 2 pictures. 
+- On big screens it has 2 Rows to 2 pictures
+### Contentpart About Us 
 #### Timeline
+- The About Us section contains 3 different parts.
+    - A timeline of the founding history and iportant dates for the club
 #### Participations
+- recent activities with links to the different winnings or tournaments
 #### Hear from our Members
+- A Hear from our Members section with pictures and short messages about the club form said members.
 ### Contentpart Training
 #### Schedule Table
+- a schedule table with all training and matches taking place during the week.
+- gekennzeichnet with different colors, for easier visibilaty
 ### Contentpart Get Connected
 #### Address Block
+picture of the address block!!
+- a address block with contact informations
 #### Google Iframe
+picture of the google maps !!
+- a google maps image with the location of the football stadium
 #### Sign up Form
+picture of the sign up form!!
+a sign up form for a newsletter to get infos about the club and activities
 ### Footer
+picutre of the footer!!
+- a footer with links to different social media pages.
 
 ## Testing
 ### Validator Testing
