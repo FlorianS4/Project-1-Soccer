@@ -470,6 +470,12 @@ td p {
     border-radius: 3px;
 }
 
+input[type=text]:focus,
+input[type=email]:focus {
+    outline-color: #5b5bc3ff;
+    color: #5b5bc3ff;
+}
+
 .signup h5 {
     font-size: large;
     padding: 15px;
@@ -490,6 +496,13 @@ td p {
     margin: 10px;
     height: 40px;
     border-radius: 10px;
+    font-size: 110%;
+}
+
+#join-button:hover {
+    background-color: #5b5bc3ff;
+    color: #ffffff;
+    border: 2px #ffffff solid;
 }
 
 /* Footer */
