@@ -18,6 +18,7 @@ Football Club FullStackPlay is a
     - [Color Scheme](#color-scheme)
 - [Wireframes](#wireframes)
 - [Features](#features)
+    - [Favicon](#favicon)
     - [Navigation Bar](#navigation-bar)
     - [Hero Image](#hero-image)
     - [Contentpart Home](#contentpart-home)
@@ -97,11 +98,14 @@ All Images were taken from pexels.com and unsplash.com. I give credit to them in
 ### Color Scheme
 
 ![FC FullStackPlay Color Palette](docs/readme-images/Color-Palette-Project-1.png)
+A skincolor variation was used as the background-color for the main body. Slate Blue was used for the Header and Footer. I used two different orange colors for the headings #FAA614 was used for the 1st Heading and #DC8D04 for the remaining heading and suvheadings. The reason for that was, that #FAA614 didn't look good on the Hero Image.
+For the cover text of the hero image i used red, because i gave a good contrast to the green of the hero image.
 
 
 ## Wireframes
 
 ## Features
+### Favicon
 ### Navigation Bar
 ### Hero Image
 ### Contentpart Home
