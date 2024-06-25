@@ -181,11 +181,24 @@ In general, I chose these colors as they are typical football colors, that are g
 ## Testing
 ### Validator Testing
 #### HTML
+The HTML validator test on [Validator.w3](https://validator.w3.org/) is showing a warning on line 66 of the HTML document. The reason for that is that a section is lacking a heading. Considering, that that section doesn't need a heading, i ignored the warning.
+- [Index.HTML -validator result](https://validator.w3.org/nu/?doc=https%3A%2F%2Fflorians4.github.io%2Fproject-1-soccer%2F)
 #### CSS
+No errors were shown for the CSS stylsheet from the W3C CSS Validator
+- [styles.css - validator result](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fflorians4.github.io%2Fproject-1-soccer%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
 ### Accessibility
 #### Lighthouse Testing
+Desktop
+
+![Lighthouse Testing Desktop](docs/readme-images/Lighthouse-testing-desktop.png)
+
+Mobile
+
+![Lighthouse Testing Mobile](docs/readme-images/Lighthouse-testing-mobile.png)
 #### Wave Testing
+![Wave Testing](docs/readme-images/Wave-testing.png)
 ### Links Testing
+
 ### Form Testing
 ### Browser Testing
 ### Device Testing
