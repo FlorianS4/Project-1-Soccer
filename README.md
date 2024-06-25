@@ -1,6 +1,7 @@
 # Football Club FullStackPlay
 
-![Football Club FullStackPlay Am I Responsive Image](docs/readme-images/FootballClubFullStackPlayAmIResponsiveImage.png)
+![Football Club FullStackPlay Am I Responsive Image](docs/readme-images/footballclubfullstackplayamiresponsiveImage.png)
+
 Visit the deployed site: [Football Club FullStackPlay](https://florians4.github.io/project-1-soccer/)
 
 Football Club FullStackPlay is a 
