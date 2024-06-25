@@ -85,9 +85,9 @@ Football Club FullStackPlay is a
 ### Typography
 
 [Google Fonts](https://fonts.google.com/) was used for the following fonts:
-- ![Roboto font image](docs/readme-images/Roboto-Font-Pic.png)
+- ![Roboto font image](docs/readme-images/roboto-font-pic.png)
 [Roboto](https://fonts.google.com/specimen/Roboto?query=Roboto) was chosen for the main body, because it was easy to read and has a good correlation to the following:
-- ![Outfit font Image](docs/readme-images/Outfit-Font-Pic.png)
+- ![Outfit font Image](docs/readme-images/outfit-font-pic.png)
 [Outfit](https://fonts.google.com/specimen/Outfit?query=Outfit) which I choose for my Headings.
 - Sans Serif was chosen as a backup font, in case the main font is not imported into the website, or there is a problem with the browser.
 
@@ -97,7 +97,7 @@ All Images were taken from pexels.com and unsplash.com. I give credit to them in
 
 ### Color Scheme
 
-![FC FullStackPlay Color Palette](docs/readme-images/Color-Palette-Project-1.png)
+![FC FullStackPlay Color Palette](docs/readme-images/color-palette-project-1.png)
 For the main body a fair beige color was used. Slate Blue was used for the Header and Footer. I used two different orange tones for the heading-section's background. #FAA614 was used for the 1st Heading and #DC8D04 for the remaining headings and subheadings. I chose two different background colors for the heading as one heading was on top of the hero image and #FAA614 didn't look good on the Hero Image. For the cover text of the hero image I used red, because I gave a good contrast to the green of the hero image.
 In general, I chose these colors as they are typical football colors, that are generally in contrast to one another as well as easily to detect on a football court. The colors are meant to represent the colors of the team. I decided that these colors are easy identify on a website as well as when playing the sport.
 
@@ -106,22 +106,22 @@ In general, I chose these colors as they are typical football colors, that are g
 
 ## Features
 ### Favicon
-![Favicon](docs/readme-images/Favicon-picture.png)
+![Favicon](docs/readme-images/favicon-picture.png)
 ### Navigation Bar
-![Navbar in Desktop View](docs/readme-images/Navbar-desktop-view.png)
+![Navbar in Desktop View](docs/readme-images/navbar-desktop-view.png)
 - The navbar consists of the name of the club and the menu. The menu includes Home, About Us, Training and Get Connected parts. When clicking each part they link to the different according parts on the page.
 - The navbar is at the top of the paged and fixated so it stays visible while scrolling down the page and gives the user the ability to navigate freely to other sections, or back to the top.
 - When selecting the Club Name the user will also go back to the top of the page.
 
-![Navbar hover function in desktop view](docs/readme-images/Navbar-hover-function-desktop-view.png)
+![Navbar hover function in desktop view](docs/readme-images/navbar-hover-function-desktop-view.png)
 - While hovering over the different parts of the menu, the according part will change to a white color to indicate to the user that it is for something different.
 
-![Navbar on smaller screens](docs/readme-images/Navbar-with-burger-favicon-for-mobile-screens.png)
+![Navbar on smaller screens](docs/readme-images/navbar-with-burger-favicon-for-mobile-screens.png)
 
-![Navbar drop down function](docs/readme-images/Navbar-drop-down-function.png)
+![Navbar drop down function](docs/readme-images/navbar-drop-down-function.png)
 - On mobile devices ( and other smaller screens) instead of the menu parts, a menu-icon (commonly used burger menu favicon) with is shown. When clicking on this a drop-down menu with the different menu parts is shown.
 ### Hero Image
-![Picture of Hero Image](docs/readme-images/Hero-picture.png)
+![Picture of Hero Image](docs/readme-images/hero-picture.png)
 - The Hero Image consist of a background picture with a cover text on top.
 - The cover text moves depending on the screen size.
 - On the bottom of the Hero Image is the first Heading of the page to start going further into detail about the website. I chose this so the user will be fluently led from the image and the name of the club to what the club is about.
@@ -129,7 +129,7 @@ In general, I chose these colors as they are typical football colors, that are g
 ### Contentpart Home
 - The first content part is just a little text about the club, to give the user basic information about the club in a short and precise way. I chose to do it this way to not put too much focus away from other topics below and still keeping the user engaged. 
 #### Image Gallery
-![Picture of image gallery desktop view](docs/readme-images/Image-gallery-desktop-view.png)
+![Picture of image gallery desktop view](docs/readme-images/image-gallery-desktop-view.png)
 - this part consists of 6 pictures that show players of the club while they are playing football. From children to adults, women to men, these pictures represent the different age ranges that are represent in the club. They are meant to visualize different things the club is doing to the user.
 
 ![Picture of image gallery mobile view](docs/readme-images/image-gallery-mobile-view.png)
@@ -138,11 +138,11 @@ In general, I chose these colors as they are typical football colors, that are g
 ### Contentpart About Us 
 - The About Us section contains 3 different parts.
 #### Timeline
-![Timeline picture](docs/readme-images/Timeline-picture.png)
+![Timeline picture](docs/readme-images/timeline-picture.png)
 - A timeline of the founding history of our different teams and important dates for the club. I chose this to give the user general understanding about important milestones of the club.
 - I wasn't able to propably come up with a timeline style-code myself. Therefore I looked various code up and decided on the code from w3schools. More information about this you will find in the [credits](#credits).
 #### Participations
-![Recent activities picture](docs/readme-images/Recent-activities-picture.png)
+![Recent activities picture](docs/readme-images/recent-activities-picture.png)
 - this part shows recent activities with links to the different tournaments and victories. The user can click on further information about either tournaments (will open external link in second tab) or for the summer camp they are directed to the sign up from for the newsletter:
 #### Hear from our Members
 ![Hear from our members desktop view](docs/readme-images/hear-from-our-members-picture.png)
@@ -150,7 +150,7 @@ In general, I chose these colors as they are typical football colors, that are g
 - This shows the user again real life experience from club members and functions as reviews.
 - On mobile devices the text is presented under the picture,
 
-![Hear from our members mobile view](docs/readme-images/Hear-from-our-members-mobile-view.png)
+![Hear from our members mobile view](docs/readme-images/hear-from-our-members-mobile-view.png)
 
  for bigger screens the name and who that person is is only shown when the mouse cursor hovers over it.
 
@@ -164,15 +164,15 @@ In general, I chose these colors as they are typical football colors, that are g
 -below this table there is a short text about the occurring yearly membership costs.
 ### Contentpart Get Connected
 #### Address Block
-![Address Block Picture](docs/readme-images/Address-block-and-google-maps-picture.png)
+![Address Block Picture](docs/readme-images/address-block-and-google-maps-picture.png)
 - an address block with contact information in a basic design. This gives the user various ways of getting in contact with the club.
 #### Google Iframe
 - a google maps image embedded from google directly to keep the now Google Maps visuals. The user will easily find out the location of the football stadium.
 #### Sign up Form
-![Sign up form picture](docs/readme-images/Sign-up-form.png)
+![Sign up form picture](docs/readme-images/sign-up-form.png)
 - a simple sign up form for a newsletter to get information about the club and activities. The user can chose for which ager range he or she wants to be informed about.
 
-![Hover effects on sign up form](docs/readme-images/Sign-up-form-with-hover-effects.png)
+![Hover effects on sign up form](docs/readme-images/sign-up-form-with-hover-effects.png)
 - a color changing Sign up button when hovering over it. To show the user that threw this the data will be sumbitted.
 ### Footer
 ![Footer picture](docs/readme-images/footer-picture.png)
@@ -190,21 +190,30 @@ No errors were shown for the CSS stylsheet from the W3C CSS Validator
 #### Lighthouse Testing
 Desktop
 
-![Lighthouse Testing Desktop](docs/readme-images/Lighthouse-testing-desktop.png)
+![Lighthouse Testing Desktop](docs/readme-images/lighthouse-testing-desktop.png)
 
 Mobile
 
-![Lighthouse Testing Mobile](docs/readme-images/Lighthouse-testing-mobile.png)
+![Lighthouse Testing Mobile](docs/readme-images/lighthouse-testing-mobile.png)
 #### Wave Testing
-![Wave Testing](docs/readme-images/Wave-testing.png)
+![Wave Testing](docs/readme-images/wave-testing.png)
 ### Links Testing
-
+- All internal links are working correctly and redirecting to the correct sections.
+- All external links are working correctly and redirecting the user to the external website in a separated tab.
 ### Form Testing
+The form has been successfully tested. It shows an error message if wrong or no data is entered. In case of an e-mail address the form demands an @ symbol or otherwise it will show an error message. 
 ### Browser Testing
+The website was successfully tested on the following browsers:
+- Google Chrome
+- Safari
 ### Device Testing
-
+- The webiste was tested on different devices. 
+    - Smartphones (Iphone Xr, )
+    - Laptops
+    - Desktop PCs
 ## Technologies Used
 ### Languages
+HTML, CSS
 ### Programs Used - Frameworks - Libraries
 
 ## Deployment

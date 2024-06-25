@@ -89,6 +89,7 @@ header a {
 
 #menu>li {
     margin-bottom: 1em;
+    color: #ffffff;
 }
 
 /* Navbar styles with dropdown toggle */
@@ -620,13 +621,12 @@ footer {
     }
 }
 
-
-
 /* Large devices (laptops and desktops, 992px and more)*/
 @media screen and (min-width: 992px) {
     #menu a:hover {
-        color: #faebefff;
+        color: #000000;
     }
+    
 
     main {
         flex: 3 0 auto;
