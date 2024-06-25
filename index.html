@@ -384,9 +384,9 @@
                 <form id="signup-form" method="POST" action="https://formdump.codeinstitute.net">
                     <h4>Want to stay updated? Sign-Up!</h4>
                     <label for="firstname">First Name:</label>
-                    <input type="text" name="firstname" id="firstname" class="text-input" placeholder="Enter your first name" required>
+                    <input type="text" name="firstname" id="firstname" class="text-input" placeholder="Enter your first name" required pattern="\S(.*\S)?">
                     <label for="lastname">Last Name:</label>
-                    <input type="text" name="lastname" id="lastname" class="text-input" placeholder="Enter your last name" required>
+                    <input type="text" name="lastname" id="lastname" class="text-input" placeholder="Enter your last name" required pattern="\S(.*\S)?">
                     <label for="email-address">Email Address:</label>
                     <input type="email" name="email-address" id="email-address" class="text-input" placeholder="Enter your email address" required>
                     <h5>For which age-range?</h5>
