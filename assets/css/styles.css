@@ -506,6 +506,25 @@ input[type=email]:focus {
     border: 2px #ffffff solid;
 }
 
+/* Sign up - Thank you page */
+#sign-up-thank-you {
+    display: flex;
+    padding-top: 6rem;
+    margin: auto;
+    font-size: 1.5rem;
+    align-items: center;
+    flex-direction: column;
+    max-width: 800px;
+}
+
+.thank-you{
+    text-align: center;
+    width: 90%;
+    display: flex;
+    color: #3a3a3a;
+}
+
+
 /* Footer */
 #social-media {
     text-align: center;
