@@ -250,6 +250,9 @@ HTML, CSS
 ## Credits
 ### Content
 ### Resources Used
+- Code Institute's lessons (love running project)
+- [Stack Overflow](https://stackoverflow.com/)
+- [W3Schools](https://www.w3schools.com/)
 ### Media
 - [Hero Image](https://www.pexels.com/photo/sky-sunset-field-sunrise-114296/) - Markus Spiske
 - [Image Gallery Pic](https://www.pexels.com/photo/soccer-match-2209/) - Pixabay
