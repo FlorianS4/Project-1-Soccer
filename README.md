@@ -4,7 +4,9 @@
 
 Visit the deployed site: [Football Club FullStackPlay](https://florians4.github.io/project-1-soccer/)
 
-Football Club FullStackPlay is a 
+Football Club FullStackPlay is a website about a fictional football club in the outscirts of vienna. The website offers informations about the club itself, different members who tell the user information about why they joined. A schedule table is included for members to see the current schedule as well as for potential new members to know about future dates on which they could join a training or watch a match. 
+
+There is also a sign up form at the bottom of the page, where people can register for a newsletter to stay informed about the club.
 
 ## Content
 - [Site Owner Goals](#site-owner-goals)
@@ -33,7 +35,7 @@ Football Club FullStackPlay is a
     - [Contentpart Get Connected](#contentpart-get-connected)
         - [Address Block](#address-block)
         - [Google Iframe](#google-iframe)
-        - [Sig Up Form](#sign-up-form)
+        - [Sign Up Form](#sign-up-form)
     - [Footer](#footer)
 - [Testing](#testing)
     - [Validator Testing](#validator-testing)
@@ -115,7 +117,7 @@ In general, I chose these colors as they are typical football colors, that are g
 - When selecting the Club Name the user will also go back to the top of the page.
 
 ![Navbar hover function in desktop view](docs/readme-images/navbar-hover-effect-desktop-view.png)
-- While hovering over the different parts of the menu, the according part will change to a white color to indicate to the user that it is for something different.
+- While hovering over the different parts of the menu, the according part will change to a darker color to indicate to the user that it is for something different.
 
 ![Navbar on smaller screens](docs/readme-images/navbar-with-burger-favicon-for-mobile-screens.png)
 
@@ -134,8 +136,7 @@ In general, I chose these colors as they are typical football colors, that are g
 - this part consists of 6 pictures that show players of the club while they are playing football. From children to adults, women to men, these pictures represent the different age ranges that are represent in the club. They are meant to visualize different things the club is doing to the user.
 
 ![Picture of image gallery mobile view](docs/readme-images/image-gallery-mobile-view.png)
-- depending on the screen size, the image gallery is responsive. On small screens it therefore has all 6 picture in a row.
-- On bigger screens it has 2 Rows of each 3 pictures.
+- depending on the screen size, the image gallery is responsive. On smaller screens it therefore has all 6 picture in one column below each other. On bigger screens it has 2 Rows of each 3 pictures.
 ### Contentpart About Us 
 - The About Us section contains 3 different parts.
 #### Timeline
@@ -188,7 +189,7 @@ In general, I chose these colors as they are typical football colors, that are g
 ## Testing
 ### Validator Testing
 #### HTML
-The HTML validator test on [Validator.w3](https://validator.w3.org/) is showing a warning on line 66 of the HTML document. The reason for that is that a section is lacking a heading. Considering, that that section doesn't need a heading, i ignored the warning.
+The HTML validator test on [Validator.w3](https://validator.w3.org/) is showing a warning on line 66 of the HTML document. The reason for that is that a section is lacking a heading. Considering, that that section doesn't need a heading, I ignored the warning.
 - [Index.HTML -validator result](https://validator.w3.org/nu/?doc=https%3A%2F%2Fflorians4.github.io%2Fproject-1-soccer%2Findex.html)
 - [Sign-up-form.HTML - validator result](https://validator.w3.org/nu/?doc=https%3A%2F%2Fflorians4.github.io%2Fproject-1-soccer%2Fsign-up-form.html%3Ffirstname%3DFlorian%26lastname%3DSassmann%26email-address%3Dflor%2540gmail.com%26age%3Dall-ages)
 #### CSS
@@ -214,9 +215,10 @@ The form has been successfully tested. It shows an error message if wrong or no 
 The website was successfully tested on the following browsers:
 - Google Chrome
 - Safari
+- Mozilla Firefox
 ### Device Testing
 - The webiste was tested on different devices. 
-    - Smartphones (Iphone Xr, )
+    - Smartphones (Iphone Xr, Sasmung Galaxy S2, Iphone 8, Iphone 11 Pro, Ipad Pro 11", Huawei P40 Pro)
     - Laptops
     - Desktop PCs
 
@@ -227,28 +229,30 @@ I also used following sides to test responsivness
 ### Languages
 HTML, CSS
 ### Programs Used - Frameworks - Libraries
-- [Google Fonts](https://fonts.google.com/) - Used to import  fonts used on website.
-- [FontAwesome](https://fontawesome.com/) - Used for footer's and navbar's icon.
-- [Google Chrome Dev Tools](https://developers.google.com/web/tools/chrome-devtools)- Used for troubleshooting, debugging, inspecting page's elements, testing responsiveness and styling elements.
-- [unsplash](https://unsplash.com/de) and [pexels](https://www.pexels.com/) - Used for free images.
-- [Favicon.cc](https://www.favicon.cc/) - Used for website's favicon.
+- [Google Fonts](https://fonts.google.com/) - to import  fonts used on website.
+- [FontAwesome](https://fontawesome.com/) - for footer's and navbar's icon.
+- [Google Chrome Dev Tools](https://developers.google.com/web/tools/chrome-devtools)- for troubleshooting, debugging, inspecting page's elements, testing responsiveness and styling elements.
+- [unsplash](https://unsplash.com/de) and [pexels](https://www.pexels.com/) - for free images.
+- [Favicon.cc](https://www.favicon.cc/) - for website's favicon.
 - [Gitpod](https://gitpod.io/) - IDE to develop the website.
-- [GitHub](https://GitHub.com/) - Used for version control and hosting.
-- [Balsamiq](https://balsamiq.com/wireframes/)- Used to create wireframes.
-- [Coolors](https://coolors.co/) - Used to create color palette.
-- [Wave](https://wave.webaim.org/) Used to test accessibility.
-- [Google Chrome's Lighthouse](https://developers.google.com/web/tools/lighthouse) - Used to test performance and accessibility.
-- [Responsinator](http://www.responsinator.com/) Used to verify responsiveness especially usage for mobile devices.
-- [Am I Responsive](https://ui.dev/amiresponsive) Used to test responsiveness.
-- [W3C Jigsaw CSS Validator](https://jigsaw.w3.org/css-validator/) Used to validate CSS code.
-- [W3C HTML Markup Validator](https://validator.w3.org/) Used to validate HTML code.
-- [TinyPNG](https://tinypng.com/) - Used to compress images to reduce file size without a reduction in quality.
+- [GitHub](https://GitHub.com/) - for version control and hosting.
+- [Balsamiq](https://balsamiq.com/wireframes/)- to create wireframes.
+- [Coolors](https://coolors.co/) - to create color palette.
+- [Wave](https://wave.webaim.org/) to test accessibility.
+- [Google Chrome's Lighthouse](https://developers.google.com/web/tools/lighthouse) - to test performance and accessibility.
+- [Responsinator](http://www.responsinator.com/) to verify responsiveness especially usage for mobile devices.
+- [Am I Responsive](https://ui.dev/amiresponsive) to test responsiveness.
+- [W3C Jigsaw CSS Validator](https://jigsaw.w3.org/css-validator/) to validate CSS code.
+- [W3C HTML Markup Validator](https://validator.w3.org/) to validate HTML code.
+- [TinyPNG](https://tinypng.com/) - to compress images to reduce file size without a reduction in quality.
 
 
 ## Deployment
 
 ## Credits
 ### Content
+- [How to make schedule table scrollable on mobile devices](https://stackoverflow.com/questions/40669221/html-table-scroll-on-phone)
+- I couldn't get the timeline right so i copied the code for the [timeline](https://www.w3schools.com/howto/howto_css_timeline.asp). I also gave full credit in comments in the style.css and index.html
 ### Resources Used
 - Code Institute's lessons (love running project)
 - [Stack Overflow](https://stackoverflow.com/)
