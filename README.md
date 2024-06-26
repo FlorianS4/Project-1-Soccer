@@ -114,12 +114,12 @@ In general, I chose these colors as they are typical football colors, that are g
 - The navbar is at the top of the paged and fixated so it stays visible while scrolling down the page and gives the user the ability to navigate freely to other sections, or back to the top.
 - When selecting the Club Name the user will also go back to the top of the page.
 
-![Navbar hover function in desktop view](docs/readme-images/navbar-hover-function-desktop-view.png)
+![Navbar hover function in desktop view](docs/readme-images/navbar-hover-effect-desktop-view.png)
 - While hovering over the different parts of the menu, the according part will change to a white color to indicate to the user that it is for something different.
 
 ![Navbar on smaller screens](docs/readme-images/navbar-with-burger-favicon-for-mobile-screens.png)
 
-![Navbar drop down function](docs/readme-images/navbar-drop-down-function.png)
+![Navbar drop down function](docs/readme-images/navbar-drop-down-function-mobile.png)
 - On mobile devices ( and other smaller screens) instead of the menu parts, a menu-icon (commonly used burger menu favicon) with is shown. When clicking on this a drop-down menu with the different menu parts is shown.
 ### Hero Image
 ![Picture of Hero Image](docs/readme-images/hero-picture.png)
@@ -134,7 +134,7 @@ In general, I chose these colors as they are typical football colors, that are g
 - this part consists of 6 pictures that show players of the club while they are playing football. From children to adults, women to men, these pictures represent the different age ranges that are represent in the club. They are meant to visualize different things the club is doing to the user.
 
 ![Picture of image gallery mobile view](docs/readme-images/image-gallery-mobile-view.png)
-- depending on the screen size, the image gallery is responsive. On small screens it therefore has 3 rows of each 2 pictures.
+- depending on the screen size, the image gallery is responsive. On small screens it therefore has all 6 picture in a row.
 - On bigger screens it has 2 Rows of each 3 pictures.
 ### Contentpart About Us 
 - The About Us section contains 3 different parts.
@@ -172,9 +172,15 @@ In general, I chose these colors as they are typical football colors, that are g
 #### Sign up Form
 ![Sign up form picture](docs/readme-images/sign-up-form.png)
 - a simple sign up form for a newsletter to get information about the club and activities. The user can chose for which ager range he or she wants to be informed about.
+- the sign up form has a blank space validator so clients have to fill out the name fields.
 
 ![Hover effects on sign up form](docs/readme-images/sign-up-form-with-hover-effects.png)
 - a color changing Sign up button when hovering over it. To show the user that threw this the data will be sumbitted.
+
+![Sign up page](docs/readme-images/sign-up-page.png)
+- After pressing the Sign up button, the user will be redirected to a sign up page.
+- The sign up page has all the external links to different social media plattforms. 
+- By pressing Home or the name of the club the user will return to the main page.
 ### Footer
 ![Footer picture](docs/readme-images/footer-picture.png)
 - a footer with links to different social media pages. They all open in a new tab and use commonly known icons for each social media platform.
