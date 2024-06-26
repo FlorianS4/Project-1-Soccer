@@ -248,6 +248,27 @@ HTML, CSS
 
 
 ## Deployment
+This site was deployed to GitHub pages. Instructions:
+
+- Login to Github.
+- Go to the GitHub repository: FlorianS4/project-1-soccer, navigate to the Settings tab.
+- Select the Pages tab on the menu on the left side.
+- Under Source, choose main from the Branch dropdown menu. TSave it.
+- The page will refresh itself and the website is now deployed with a text indicating such.
+
+### Running the project locally
+How to Fork:
+- Login to Github
+- Go to the GitHub repository: FlorianS4/project-1-soccer
+- Select the Fork button on the right at the top
+
+How to clone:
+- Login to Github
+- Go to the GitHub repository: FlorianS4/project-1-soccer
+- Select the code button, select whether you would like to clone with HTTPS, SSH or GitHub CLI and copy the link shown.
+- Open the terminal in your code editor and change the current working directory to the location you want to use for the cloned directory.
+- Type 'git clone' into the terminal and then paste the link you copied in step 3. and enter.
+- A clone will be created
 
 ## Credits
 ### Content
