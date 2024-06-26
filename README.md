@@ -178,7 +178,7 @@ In general, I chose these colors as they are typical football colors, that are g
 - a color changing Sign up button when hovering over it. To show the user that threw this the data will be sumbitted.
 
 ![Sign up page](docs/readme-images/sign-up-page.png)
-- After pressing the Sign up button, the user will be redirected to a sign up page.
+- After pressing the Sign up button, the user will be redirected to a sign up page, so that the user knows that the process was successful.
 - The sign up page has all the external links to different social media plattforms. 
 - By pressing Home or the name of the club the user will return to the main page.
 ### Footer
@@ -189,7 +189,8 @@ In general, I chose these colors as they are typical football colors, that are g
 ### Validator Testing
 #### HTML
 The HTML validator test on [Validator.w3](https://validator.w3.org/) is showing a warning on line 66 of the HTML document. The reason for that is that a section is lacking a heading. Considering, that that section doesn't need a heading, i ignored the warning.
-- [Index.HTML -validator result](https://validator.w3.org/nu/?doc=https%3A%2F%2Fflorians4.github.io%2Fproject-1-soccer%2F)
+- [Index.HTML -validator result](https://validator.w3.org/nu/?doc=https%3A%2F%2Fflorians4.github.io%2Fproject-1-soccer%2Findex.html)
+- [Sign-up-form.HTML - validator result](https://validator.w3.org/nu/?doc=https%3A%2F%2Fflorians4.github.io%2Fproject-1-soccer%2Fsign-up-form.html%3Ffirstname%3DFlorian%26lastname%3DSassmann%26email-address%3Dflor%2540gmail.com%26age%3Dall-ages)
 #### CSS
 No errors were shown for the CSS stylsheet from the W3C CSS Validator
 - [styles.css - validator result](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fflorians4.github.io%2Fproject-1-soccer%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
@@ -208,7 +209,7 @@ Mobile
 - All internal links are working correctly and redirecting to the correct sections.
 - All external links are working correctly and redirecting the user to the external website in a separated tab.
 ### Form Testing
-The form has been successfully tested. It shows an error message if wrong or no data is entered. In case of an e-mail address the form demands an @ symbol or otherwise it will show an error message. 
+The form has been successfully tested. It shows an error message if wrong or no data is entered. In case of an e-mail address the form demands an @ symbol or otherwise it will show an error message.
 ### Browser Testing
 The website was successfully tested on the following browsers:
 - Google Chrome
@@ -218,10 +219,31 @@ The website was successfully tested on the following browsers:
     - Smartphones (Iphone Xr, )
     - Laptops
     - Desktop PCs
+
+I also used following sides to test responsivness
+- [Responsinator](http://www.responsinator.com/?url=https%3A%2F%2Fflorians4.github.io%2Fproject-1-soccer%2F)
+- [Am I Responsive](https://ui.dev/amiresponsive?url=https://florians4.github.io/project-1-soccer/)
 ## Technologies Used
 ### Languages
 HTML, CSS
 ### Programs Used - Frameworks - Libraries
+- [Google Fonts](https://fonts.google.com/) - Used to import  fonts used on website.
+- [FontAwesome](https://fontawesome.com/) - Used for footer's and navbar's icon.
+- [Google Chrome Dev Tools](https://developers.google.com/web/tools/chrome-devtools)- Used for troubleshooting, debugging, inspecting page's elements, testing responsiveness and styling elements.
+- [unsplash](https://unsplash.com/de) and [pexels](https://www.pexels.com/) - Used for free images.
+- [Favicon.cc](https://www.favicon.cc/) - Used for website's favicon.
+- [Gitpod](https://gitpod.io/) - IDE to develop the website.
+- [GitHub](https://GitHub.com/) - Used for version control and hosting.
+- [Balsamiq](https://balsamiq.com/wireframes/)- Used to create wireframes.
+- [Coolors](https://coolors.co/) - Used to create color palette.
+- [Wave](https://wave.webaim.org/) Used to test accessibility.
+- [Google Chrome's Lighthouse](https://developers.google.com/web/tools/lighthouse) - Used to test performance and accessibility.
+- [Responsinator](http://www.responsinator.com/) Used to verify responsiveness especially usage for mobile devices.
+- [Am I Responsive](https://ui.dev/amiresponsive) Used to test responsiveness.
+- [W3C Jigsaw CSS Validator](https://jigsaw.w3.org/css-validator/) Used to validate CSS code.
+- [W3C HTML Markup Validator](https://validator.w3.org/) Used to validate HTML code.
+- [TinyPNG](https://tinypng.com/) - Used to compress images to reduce file size without a reduction in quality.
+
 
 ## Deployment
 
@@ -229,5 +251,17 @@ HTML, CSS
 ### Content
 ### Resources Used
 ### Media
+- [Hero Image](https://www.pexels.com/photo/sky-sunset-field-sunrise-114296/) - Markus Spiske
+- [Image Gallery Pic](https://www.pexels.com/photo/soccer-match-2209/) - Pixabay
+- [Iamge Gallery Pic](https://www.pexels.com/photo/toddler-playing-soccer-296302/) - Lukas
+- [Image Gallery Pic](https://unsplash.com/photos/women-playing-soccer-on-green-field-during-daytime-TsYzva0e2pQ) - Joppe Spaa
+- [Image Gallery Pic](https://unsplash.com/photos/2-boys-playing-soccer-on-field-during-daytime-xtvnC2FuJSg) - Alliance Football Club
+- [Image Gallery Pic](https://unsplash.com/photos/group-of-men-playing-football-on-field-BF1nxAvAM0k) - Jeffrey F Lin
+- [Image Gallery Pic](https://unsplash.com/photos/man-in-red-and-blue-football-jersey-shirt-tr5IM2lmryw) - Omar Ram
+- [Potrait Pic](https://www.pexels.com/photo/soccer-player-sitting-on-a-green-field-3621094/) - RF._.studio
+- [Potrait Pic](https://www.pexels.com/de-de/foto/mann-feld-schule-sport-8941569/) - Kampus Production
+- [Potrait Pic](https://unsplash.com/photos/man-in-gray-coat-holding-soccer-ball-QBkiki5ZiDE) - Omar Ram
+- [Potrait Pic](https://www.pexels.com/de-de/foto/frau-lachelt-und-halt-blaugrunes-buch-1181424/) - Christina Morillo
+- [Sign Up Background Pic](https://unsplash.com/photos/white-and-black-soccer-ball-on-green-grass-field-during-daytime-iOITF7T87kU) - Andreas Siimon
 
 ## Acknowledgments
