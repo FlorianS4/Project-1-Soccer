@@ -216,8 +216,8 @@ Mobile
 
 - Sign Up Page
 
-![Lighthouse Testing Sign Up Page Mobile](docs/readme-images/lighthouse-testing-sign-up-page-mobile.png
-)
+![Lighthouse Testing Sign Up Page Mobile](docs/readme-images/lighthouse-testing-sign-up-page-mobile.png)
+
 #### Wave Testing
 Wave testing on main page
 
