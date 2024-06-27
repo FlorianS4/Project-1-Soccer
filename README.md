@@ -48,6 +48,7 @@ There is also a sign up form at the bottom of the page, where people can registe
     - [Form Testing](#form-testing)
     - [Browser Testing](#browser-testing)
     - [Device Testing](#device-testing)
+    - [User Testing](#user-testing)
 - [Technologies Used](#technologies-used)
     - [Languages](#languages)
     - [Programs Used - Frameworks - Libraries](#programs-used---frameworks---libraries)
@@ -57,6 +58,7 @@ There is also a sign up form at the bottom of the page, where people can registe
     - [Content](#content)
     - [Resources Used](#resources-used)
     - [Media](#media)
+- [Fixed Bugs](#fixed-bugs)
 - [Acknowledgments](#acknowledgments)
 
 
@@ -267,6 +269,47 @@ The website was successfully tested on the following browsers:
     - Smartphones (Iphone Xr, Sasmung Galaxy S2, Iphone 8, Iphone 11 Pro, Ipad Pro 11", Huawei P40 Pro)
     - Laptops
     - Desktop PCs
+### User Testing
+
+First Time User:
+- I want the main purpose of the website to be easy to understand and to navigate.
+
+        The website layout is structured so it is user friendly, with a common and easy to understand layout. The user can understand the website of the website without having to look deeply into it.
+
+- I want the site to be responsive to my device.
+
+        The website was made completely responsive for all devices and screen sizes.
+
+- I want to know about the cost of becoming a member and in what age range football activities are played.
+
+        The website has a membership text-element with information about the price under the training schedule. The training schedule itself shows age ranges. What is more on the picture the user can see different ages and in the texts different age ranges are mentioned as well.
+
+- I want to know how to get in contact with the club and where to find it.
+
+        You can contact the club via phone or email. The contact information is found in the address block above the google map.
+
+- I want to read about already enrolled members' experience and what they think about the club.
+
+        The website has a short section with statements from different type of members and how they feel about the club. 
+
+Returning User:
+- I want to find future training dates for me or my children's age range.
+
+        In the training section is a schedule table with a timetable for the different training units, but it is best to contact the club first or sign up for the newsletter, before showing up.
+
+- I want to subscribe to the newsletter to find out about club activities where I could participate.
+
+        The website has a Sign Up form at the bottom of the page. 
+
+Frequent User:
+- I want to subscribe to the newsletter to find out about club activities and how I could participate.
+
+        The website has a Sign Up form at the bottom of the page.
+
+- I want to find out when matches are held, so I could watch a match live.
+
+        The user can see the upcoming matches in the schedule table which is regularly updated.
+
 
 I also used following sides to test responsivness
 - [Responsinator](http://www.responsinator.com/?url=https%3A%2F%2Fflorians4.github.io%2Fproject-1-soccer%2F)
@@ -337,5 +380,8 @@ How to clone:
 - [Potrait Pic](https://unsplash.com/photos/man-in-gray-coat-holding-soccer-ball-QBkiki5ZiDE) - Omar Ram
 - [Potrait Pic](https://www.pexels.com/de-de/foto/frau-lachelt-und-halt-blaugrunes-buch-1181424/) - Christina Morillo
 - [Sign Up Background Pic](https://unsplash.com/photos/white-and-black-soccer-ball-on-green-grass-field-during-daytime-iOITF7T87kU) - Andreas Siimon
+
+
+## Fixed Bugs
 
 ## Acknowledgments
