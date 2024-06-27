@@ -52,6 +52,7 @@ There is also a sign up form at the bottom of the page, where people can registe
     - [Languages](#languages)
     - [Programs Used - Frameworks - Libraries](#programs-used---frameworks---libraries)
 - [Deployment](#deployment)
+    - [Running the project locally](#running-the-project-locally)
 - [Credits](#credits)
     - [Content](#content)
     - [Resources Used](#resources-used)
@@ -199,13 +200,32 @@ No errors were shown for the CSS stylsheet from the W3C CSS Validator
 #### Lighthouse Testing
 Desktop
 
-![Lighthouse Testing Desktop](docs/readme-images/lighthouse-testing-desktop.png)
+- Main Page 
+
+![Lighthouse Testing Main Page Desktop](docs/readme-images/lighthouse-testing-desktop.png)
+
+- Sign Up Page
+
+![Lighthouse Testing Sign Up Page Desktop](docs/readme-images/lighthouse-testing-sign-up-page-desktop.png)
 
 Mobile
 
-![Lighthouse Testing Mobile](docs/readme-images/lighthouse-testing-mobile.png)
+- Main Page
+
+![Lighthouse Testing Main Page Mobile](docs/readme-images/lighthouse-testing-mobile.png)
+
+- Sign Up Page
+
+![Lighthouse Testing Sign Up Page Mobile](docs/readme-images/lighthouse-testing-sign-up-page-mobile.png
+)
 #### Wave Testing
-![Wave Testing](docs/readme-images/wave-testing.png)
+Wave testing on main page
+
+![Wave Testing Main Page](docs/readme-images/wave-testing.png)
+
+Wave testing on sign up page
+
+![Wave Testing Sign up page](docs/readme-images/wave-testing-sign-up-page.png)
 ### Links Testing
 - All internal links are working correctly and redirecting to the correct sections.
 - All external links are working correctly and redirecting the user to the external website in a separated tab.
