@@ -59,6 +59,7 @@ There is also a sign up form at the bottom of the page, where people can registe
     - [Resources Used](#resources-used)
     - [Media](#media)
 - [Fixed Bugs](#fixed-bugs)
+- [Future Content](#future-content)
 - [Acknowledgments](#acknowledgments)
 
 
@@ -363,6 +364,8 @@ How to clone:
 ### Content
 - [How to make schedule table scrollable on mobile devices](https://stackoverflow.com/questions/40669221/html-table-scroll-on-phone)
 - I couldn't get the timeline right so i copied the code for the [timeline](https://www.w3schools.com/howto/howto_css_timeline.asp). I also gave full credit in comments in the style.css and index.html
+- Added a grayish color for the empty boxes of the schedule table, after suggestion by - Hannah o. via Slack peer code review
+- Added smooth scrolling effect after a suggestion by - Dimitris_5P viea Slack peer code review
 ### Resources Used
 - Code Institute's lessons (love running project)
 - [Stack Overflow](https://stackoverflow.com/)
@@ -383,5 +386,26 @@ How to clone:
 
 
 ## Fixed Bugs
+- Hero picture was not showing up correctly.
+
+        Centered hero picture to the left, so content is complettly visibel on all screen sizes.
+
+- Navbar covered top of section heading when selecting a menu item.
+
+        Added an emtpy div above the section headings with position: relativ and top:80px so there will be space between the content and the navbar.
+
+- I wasn't able to add a timeline on my own, didn't look right, was not responsive, the elements were out of place.
+
+        Copied the whole timeline from [w3schools](https://www.w3schools.com/howto/howto_css_timeline.asp) and gave credit in the style.css and the index.html.
+
+## Future Content
+- Navbar menu items should be active, when the user is on the corresponding section.
+
+        Only possible with JavaScript, and I have no idea about JavaScript at the moment as it will be taught in futre lessons. This can be implemented in future versions once I gained the knowledge.
 
 ## Acknowledgments
+My mentor Jubril for his guadance, input and support.
+
+The Slack community on Code Institute for reviewing my project and for support.
+
+Code Institute for informational courses.
