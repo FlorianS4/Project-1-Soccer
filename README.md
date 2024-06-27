@@ -108,6 +108,32 @@ In general, I chose these colors as they are typical football colors, that are g
 
 ## Wireframes
 
+<details>
+
+<summary>Desktop Wireframe</summary>
+Main Page:
+
+![Wireframe Main Page Desktop](docs/readme-images/wireframe-main-page-desktop.png)
+
+Sign Up Page:
+
+![Wireframe Sign Up Page Desktop](docs/readme-images/wireframe-sign-up-page-desktop.png)
+
+</details>
+
+<details>
+
+<summary>Mobile Wireframe</summary>
+Main Page:
+
+![Wireframe Main Page Desktop](docs/readme-images/wireframe-main-page-mobile.png)
+
+Sign Up Page:
+
+![Wireframe Sign Up Page Mobile](docs/readme-images/wireframe-sign-up-page-mobile.png)
+
+</details>
+
 ## Features
 ### Favicon
 ![Favicon](docs/readme-images/favicon-picture.png)
