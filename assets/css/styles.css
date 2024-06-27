@@ -16,6 +16,11 @@
 --orange for 1st heading: rgba(250, 166, 20, .6)
 */
 
+/* Smooth Scrolling effect */
+html {
+    scroll-behavior: smooth;
+  }
+  
 /* General Styles */
 body {
     min-height: 100vh;
