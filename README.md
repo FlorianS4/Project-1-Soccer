@@ -201,11 +201,11 @@ Sign Up Page:
 #### Google Iframe
 - a google maps image embedded from google directly to keep the now Google Maps visuals. The user will easily find out the location of the football stadium.
 #### Sign up Form
-![Sign up form picture](docs/readme-images/sign-up-form.png)
+![Sign up form picture](docs/readme-images/Sign-up-form.png)
 - a simple sign up form for a newsletter to get information about the club and activities. The user can chose for which ager range he or she wants to be informed about.
 - the sign up form has a blank space validator so clients have to fill out the name fields.
 
-![Hover effects on sign up form](docs/readme-images/sign-up-form-with-hover-effects.png)
+![Hover effects on sign up form](docs/readme-images/Sign-up-form-with-hover-effects.png)
 - a color changing Sign up button when hovering over it. To show the user that threw this the data will be sumbitted.
 
 ![Sign up page](docs/readme-images/sign-up-page.png)
