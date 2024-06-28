@@ -503,8 +503,8 @@ input[type=email]:focus {
 #join-button {
     width: 40%;
     align-self: center;
-    margin: 10px;
-    height: 40px;
+    margin: 20px 10px 10px 10px;
+    height: 45px;
     border-radius: 10px;
     font-size: 110%;
 }
