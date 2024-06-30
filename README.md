@@ -4,7 +4,7 @@
 
 Visit the deployed site: [Football Club FullStackPlay](https://florians4.github.io/project-1-soccer/)
 
-Football Club FullStackPlay is a website about a fictional football club in the outscirts of vienna. The website offers informations about the club itself, different members who tell the user information about why they joined. A schedule table is included for members to see the current schedule as well as for potential new members to know about future dates on which they could join a training or watch a match. 
+Football Club FullStackPlay is a website about a fictional football club in the outskirts of vienna. The website offers information about the club itself, different members who tell the user information about why they joined. A schedule table is included for members to see the current schedule as well as for potential new members to know about future dates on which they could join a training or watch a match. 
 
 There is also a sign up form at the bottom of the page, where people can register for a newsletter to stay informed about the club.
 
@@ -89,13 +89,13 @@ There is also a sign up form at the bottom of the page, where people can registe
 
 ### Imagery
 
-All Images were taken from pexels.com and unsplash.com. I give credit to them in the [credits](#credits) section. All images are free stock photos. The images selected show kids, woman and men playing soccer.
+All Images were taken from pexels.com and unsplash.com. I give credit to them in the [credits](#credits) section. All images are free stock photos. The images selected show kids, women and men playing soccer.
 
 ### Color Scheme
 
 ![FC FullStackPlay Color Palette](docs/readme-images/color-palette-project-1.png)
 For the main body a fair beige color was used. Slate Blue was used for the Header and Footer. I used two different orange tones for the heading-section's background. #FAA614 was used for the 1st Heading and #DC8D04 for the remaining headings and subheadings. I chose two different background colors for the heading as one heading was on top of the hero image and #FAA614 didn't look good on the Hero Image. For the cover text of the hero image I used red, because I gave a good contrast to the green of the hero image.
-In general, I chose these colors as they are typical football colors, that are generally in contrast to one another as well as easily to detect on a football court. The colors are meant to represent the colors of the team. I decided that these colors are easy identify on a website as well as when playing the sport.
+In general, I chose these colors as they are typical football colors, that are generally in contrast to one another as well as easily detectable on a football court. The colors are meant to represent the colors of the team. I decided that these colors are easily identified on a website as well as when playing the sport.
 
 
 ## Wireframes
@@ -131,8 +131,8 @@ Sign Up Page:
 ![Favicon](docs/readme-images/favicon-picture.png)
 ### Navigation Bar
 ![Navbar in Desktop View](docs/readme-images/navbar-desktop-view.png)
-- The navbar consists of the name of the club and the menu. The menu includes Home, About Us, Training and Get Connected parts. When clicking each part they link to the different according parts on the page.
-- The navbar is at the top of the paged and fixated so it stays visible while scrolling down the page and gives the user the ability to navigate freely to other sections, or back to the top.
+- The navbar consists of the name of the club and the menu. The menu includes Home, About Us, Training and Get Connected parts. When clicking each part they link to the different parts on the page.
+- The navbar is at the top of the page and fixed so it stays visible while scrolling down the page and gives the user the ability to navigate freely to other sections, or back to the top.
 - When selecting the Club Name the user will also go back to the top of the page.
 
 ![Navbar hover function in desktop view](docs/readme-images/navbar-hover-effect-desktop-view.png)
@@ -144,7 +144,7 @@ Sign Up Page:
 - On mobile devices ( and other smaller screens) instead of the menu parts, a menu-icon (commonly used burger menu favicon) with is shown. When clicking on this a drop-down menu with the different menu parts is shown.
 ### Hero Image
 ![Picture of Hero Image](docs/readme-images/hero-picture.png)
-- The Hero Image consist of a background picture with a cover text on top.
+- The Hero Image consists of a background picture with a cover text on top.
 - The cover text moves depending on the screen size.
 - On the bottom of the Hero Image is the first Heading of the page to start going further into detail about the website. I chose this so the user will be fluently led from the image and the name of the club to what the club is about.
 - Both text fields have a semi-transparent look, so the Hero Image is still visible, while still highlighting the text parts.
@@ -152,22 +152,22 @@ Sign Up Page:
 - The first content part is just a little text about the club, to give the user basic information about the club in a short and precise way. I chose to do it this way to not put too much focus away from other topics below and still keeping the user engaged. 
 #### Image Gallery
 ![Picture of image gallery desktop view](docs/readme-images/image-gallery-desktop-view.png)
-- this part consists of 6 pictures that show players of the club while they are playing football. From children to adults, women to men, these pictures represent the different age ranges that are represent in the club. They are meant to visualize different things the club is doing to the user.
+- this part consists of 6 pictures that show players of the club while they are playing football. From children to adults, women to men, these pictures represent the different age ranges that are represented in the club. They are meant to visualize different things the club is doing to the user.
 
 ![Picture of image gallery mobile view](docs/readme-images/image-gallery-mobile-view.png)
-- depending on the screen size, the image gallery is responsive. On smaller screens it therefore has all 6 picture in one column below each other. On bigger screens it has 2 Rows of each 3 pictures.
+- depending on the screen size, the image gallery is responsive. On smaller screens it therefore has all 6 pictures in one column below each other. On bigger screens it has 2 Rows of each 3 pictures.
 ### Contentpart About Us 
 - The About Us section contains 3 different parts.
 #### Timeline
 ![Timeline picture](docs/readme-images/timeline-picture.png)
 - A timeline of the founding history of our different teams and important dates for the club. I chose this to give the user general understanding about important milestones of the club.
-- I wasn't able to propably come up with a timeline style-code myself. Therefore I looked various code up and decided on the code from w3schools. More information about this you will find in the [credits](#credits).
+- I wasn't able to probably come up with a timeline style-code myself. Therefore I looked up various codes and decided on the code from w3schools. More information about this you will find in the [credits](#credits).
 #### Participations
 ![Recent activities picture](docs/readme-images/recent-activities-picture.png)
 - this part shows recent activities with links to the different tournaments and victories. The user can click on further information about either tournaments (will open external link in second tab) or for the summer camp they are directed to the sign up from for the newsletter:
 #### Hear from our Members
 ![Hear from our members desktop view](docs/readme-images/hear-from-our-members-picture.png)
-- A "hear from our Members" section with pictures of four members, who they are and short messages about the club form said members.
+- A "hear from our Members" section with pictures of four members, who they are and short messages about the club from said members.
 - This shows the user again real life experience from club members and functions as reviews.
 - On mobile devices the text is presented under the picture,
 
@@ -191,15 +191,15 @@ Sign Up Page:
 - a google maps image embedded from google directly to keep the now Google Maps visuals. The user will easily find out the location of the football stadium.
 #### Sign up Form
 ![Sign up form picture](docs/readme-images/Sign-up-form.png)
-- a simple sign up form for a newsletter to get information about the club and activities. The user can chose for which ager range he or she wants to be informed about.
+- a simple sign up form for a newsletter to get information about the club and activities. The user can choose for which age range he or she wants to be informed about.
 - the sign up form has a blank space validator so clients have to fill out the name fields.
 
 ![Hover effects on sign up form](docs/readme-images/Sign-up-form-with-hover-effects.png)
-- a color changing Sign up button when hovering over it. To show the user that threw this the data will be sumbitted.
+- a color changing Sign up button when hovering over it. To show the user that threw this the data will be submitted.
 
 ![Sign up page](docs/readme-images/sign-up-page.png)
 - After pressing the Sign up button, the user will be redirected to a sign up page, so that the user knows that the process was successful.
-- The sign up page has all the external links to different social media plattforms. 
+- The sign up page has all the external links to different social media platforms. 
 - By pressing Home or the name of the club the user will return to the main page.
 ### Footer
 ![Footer picture](docs/readme-images/footer-picture.png)
@@ -255,9 +255,9 @@ How to clone:
 ## Credits
 ### Content
 - [How to make schedule table scrollable on mobile devices](https://stackoverflow.com/questions/40669221/html-table-scroll-on-phone)
-- I couldn't get the timeline right so i copied the code for the [timeline](https://www.w3schools.com/howto/howto_css_timeline.asp). I also gave full credit in comments in the style.css and index.html
+- I couldn't get the timeline right so I copied the code for the [timeline](https://www.w3schools.com/howto/howto_css_timeline.asp). I also gave full credit in comments in the style.css and index.html
 - Added a grayish color for the empty boxes of the schedule table, after suggestion by - Hannah o. via Slack peer code review
-- Added smooth scrolling effect after a suggestion by - Dimitris_5P viea Slack peer code review
+- Added smooth scrolling effect after a suggestion by - Dimitris_5P via Slack peer code review
 ### Resources Used
 - Code Institute's lessons (love running project)
 - [Stack Overflow](https://stackoverflow.com/)
@@ -265,26 +265,26 @@ How to clone:
 ### Media
 - [Hero Image](https://www.pexels.com/photo/sky-sunset-field-sunrise-114296/) - Markus Spiske
 - [Image Gallery Pic](https://www.pexels.com/photo/soccer-match-2209/) - Pixabay
-- [Iamge Gallery Pic](https://www.pexels.com/photo/toddler-playing-soccer-296302/) - Lukas
+- [Image Gallery Pic](https://www.pexels.com/photo/toddler-playing-soccer-296302/) - Lukas
 - [Image Gallery Pic](https://unsplash.com/photos/women-playing-soccer-on-green-field-during-daytime-TsYzva0e2pQ) - Joppe Spaa
 - [Image Gallery Pic](https://unsplash.com/photos/2-boys-playing-soccer-on-field-during-daytime-xtvnC2FuJSg) - Alliance Football Club
 - [Image Gallery Pic](https://unsplash.com/photos/group-of-men-playing-football-on-field-BF1nxAvAM0k) - Jeffrey F Lin
 - [Image Gallery Pic](https://unsplash.com/photos/man-in-red-and-blue-football-jersey-shirt-tr5IM2lmryw) - Omar Ram
-- [Potrait Pic](https://www.pexels.com/photo/soccer-player-sitting-on-a-green-field-3621094/) - RF._.studio
-- [Potrait Pic](https://www.pexels.com/de-de/foto/mann-feld-schule-sport-8941569/) - Kampus Production
-- [Potrait Pic](https://unsplash.com/photos/man-in-gray-coat-holding-soccer-ball-QBkiki5ZiDE) - Omar Ram
-- [Potrait Pic](https://www.pexels.com/de-de/foto/frau-lachelt-und-halt-blaugrunes-buch-1181424/) - Christina Morillo
+- [Portrait Pic](https://www.pexels.com/photo/soccer-player-sitting-on-a-green-field-3621094/) - RF._.studio
+- [Portrait Pic](https://www.pexels.com/de-de/foto/mann-feld-schule-sport-8941569/) - Kampus Production
+- [Portrait Pic](https://unsplash.com/photos/man-in-gray-coat-holding-soccer-ball-QBkiki5ZiDE) - Omar Ram
+- [Portrait Pic](https://www.pexels.com/de-de/foto/frau-lachelt-und-halt-blaugrunes-buch-1181424/) - Christina Morillo
 - [Sign Up Background Pic](https://unsplash.com/photos/white-and-black-soccer-ball-on-green-grass-field-during-daytime-iOITF7T87kU) - Andreas Siimon
 
 
 ## Fixed Bugs
 - Hero picture was not showing up correctly.
 
-        Centered hero picture to the left, so content is complettly visibel on all screen sizes.
+        Centered hero picture to the left, so content is completely visibl on all screen sizes.
 
 - Navbar covered top of section heading when selecting a menu item.
 
-        Added an emtpy div above the section headings with position: relativ and top:80px so there will be space between the content and the navbar.
+        Added an empty div above the section headings with position: relative and top:80px so there will be space between the content and the navbar.
 
 - I wasn't able to add a timeline on my own, didn't look right, was not responsive, the elements were out of place.
 
@@ -293,10 +293,10 @@ How to clone:
 ## Future Content
 - Navbar menu items should be active, when the user is on the corresponding section.
 
-        Only possible with JavaScript, and I have no idea about JavaScript at the moment as it will be taught in futre lessons. This can be implemented in future versions once I gained the knowledge.
+        Only possible with JavaScript, and I have no idea about JavaScript at the moment as it will be taught in future lessons. This can be implemented in future versions once I gain the knowledge.
 
 ## Acknowledgments
-My mentor Jubril Akolade for his guadance, input and support.
+My mentor Jubril Akolade for his guidance, input and support.
 
 The Slack community on Code Institute for reviewing my project and for support.
 
